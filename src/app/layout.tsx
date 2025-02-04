@@ -1,5 +1,5 @@
 import "./globals.css";
-import { roboto } from "./ui/fonts";
+import { merriweather, roboto } from "./ui/fonts";
 
 export default function RootLayout({
   children,
@@ -9,7 +9,7 @@ export default function RootLayout({
   return (
     <html lang="es">
       <body
-        className={`${roboto.className} antialiased`}
+        className={`${merriweather.className} antialiased`}
       >
         {children}
       </body>

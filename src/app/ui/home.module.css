@@ -1,0 +1,14 @@
+
+.buttonShape{
+    height: 4rem;
+    width: 8rem;
+    border-radius: 4;
+    color: rgb(59 130 246 );
+    background: white;
+    box-shadow: 4 4 gray;
+}
+.buttonShape:active{ 
+    transform: translateY(4px);
+    box-shadow: 0 1 gray;
+
+}

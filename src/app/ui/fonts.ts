@@ -1,7 +1,11 @@
-import { Roboto_Flex } from 'next/font/google'
+import { Roboto_Flex, Merriweather } from 'next/font/google'
 
+export const merriweather = Merriweather ({
+    weight:'900',
+    subsets:['latin']
+})
 export const roboto = Roboto_Flex({
-    weight: '300',
+    weight: '800',
     subsets:['latin']
 })
 
