@@ -11,7 +11,7 @@ export default function Home() {
           <div className="flex h-20 shrink-0 items-end rounded-lg bg-blue-500 p-4 md:h-30">
             <p className="text-white text-4xl">Asesores Consultores A.J.</p>
             <nav>
-
+              
             </nav>
           </div>
           <button className={`${roboto.className} antialiased ${styles.buttonShape}`}>Presiona</button>
