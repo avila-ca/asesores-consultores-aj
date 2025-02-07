@@ -1,7 +1,7 @@
 import "./globals.css";
 import { merriweather, roboto } from "./ui/fonts";
 import NavLinks from "./ui/navLinks";
-import styles from './ui/home.module.css';
+import { Button } from "./ui/button";
 
 export default function RootLayout({
   children,
@@ -25,6 +25,10 @@ export default function RootLayout({
             </nav>
             {/* <button className={`${roboto.className} antialiased ${styles.buttonShape}`}>Presiona</button> */}
           </header>
+          
+
+          <Button children= "presiona"/>
+
           {children}
         </div>
       </body>

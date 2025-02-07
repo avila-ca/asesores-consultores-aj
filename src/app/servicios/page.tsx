@@ -1,7 +1,10 @@
+import Card from "../ui/card";
 
 export default function page() {
     return (
-      <div>page q mola</div>
+      <div>
+        <Card />
+      </div>
     )
   }
   
