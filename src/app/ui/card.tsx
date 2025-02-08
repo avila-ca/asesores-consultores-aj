@@ -1,7 +1,7 @@
 
-interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
-    children: React.ReactNode;
-}
+// interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
+//     children: React.ReactNode;
+// }
 
 const services = [
     {
@@ -71,7 +71,7 @@ const services = [
 
 ]
 
-export default function Card() {
+export default function CardServices() {
 
     return (
         <>

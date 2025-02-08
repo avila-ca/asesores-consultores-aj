@@ -5,7 +5,7 @@ import NavLinks from './ui/navLinks';
 export default function Home() {
   return (
     <>
-      
+
     </>
   );
 }

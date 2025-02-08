@@ -11,11 +11,11 @@ import {
     PhoneIcon,
   } from '@heroicons/react/24/outline';
 const links = [
-    { name: 'Home', href: '/', icon: HomeIcon },
-    { name: 'Services', href: '/servicios', icon:ScaleIcon},
-    { name: 'News', href: '/noticias', icon:NewspaperIcon},
-    { name: 'About', href: '/sobre-nosotros', icon: InformationCircleIcon},
-    { name: 'Contact', href: '/contacto', icon: PhoneIcon},
+    { name: 'Inicio', href: '/', icon: HomeIcon },
+    { name: 'Servicios', href: '/servicios', icon:ScaleIcon},
+    { name: 'Notícias', href: '/noticias', icon:NewspaperIcon},
+    { name: 'Sobre Nosotros', href: '/sobre-nosotros', icon: InformationCircleIcon},
+    { name: 'Contacto', href: '/contacto', icon: PhoneIcon},
 ]
 
 export default function NavLinks() {
