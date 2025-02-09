@@ -10,7 +10,7 @@ export default function ClientLayout({ children }: { children: React.ReactNode }
   return (
     <>
       <main >
-        <div className={clsx("line-height-20", { "hidden" : pathname !== "/" },)}>
+        <div className={clsx( { "hidden" : pathname !== "/" },)}>
           <Video />
 
         </div>

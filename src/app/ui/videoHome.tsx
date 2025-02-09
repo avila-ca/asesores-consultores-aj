@@ -22,9 +22,9 @@ export function Video() {
     };
     return (
         <>
-            <div className="absolute inset-0 w-full h-full -z-10">
+            <div className="absolute inset-0 w-full h-full -z-10 opacity-30">
 
-                <video className="absolute inset-0 top-0 left-0 w-full h-full -z-10 object-cover opacity-40 filter grayscale"
+                <video className="absolute inset-0 top-0 left-0 w-full h-full -z-10  object-cover opacity-40 filter grayscale"
                     width="1920"
                     height="1080"
                     autoPlay
