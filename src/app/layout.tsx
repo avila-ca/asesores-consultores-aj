@@ -1,12 +1,8 @@
 import "./globals.css";
 import { merriweather, montserrat, roboto } from "./ui/fonts";
 import NavLinks from "./ui/navLinks";
+import ClientLayout from "./ui/clientLayout";
 import { Button } from "./ui/button";
-import { Video } from "./ui/videoHome";
-import styles from "@/app/ui/home.module.css";
-import clsx from "clsx";
-import { PathProvider } from "./utils/PathProvider";
-import ClientLayout from "./ui/video";
 
 export default function RootLayout({
   children,
@@ -19,11 +15,11 @@ export default function RootLayout({
       <body
         className={`${montserrat.className} antialiased`}
       >
-       
+
         <div className="flex min-h-screen flex-col  bg-white-200">
 
-          <div className="flex justify-between h-20 shrink-0 items-end  bg-blue-500 p-4 md:h-30">
-            <p className="text-white text-4xl">Asesores Consultores A.J.</p>
+          <div className="flex justify-between h-20 shrink-0 items-end bg-opacity-40 bg-blue-500 p-4 md:h-30">
+            <p className="text-gray-900 text-4xl">Asesores Consultores A.J.</p>
             <a className="text-white text-1xl" href="tel:+34672160669">TEL: 672 160 669</a>
           </div>
           <header>
@@ -31,15 +27,11 @@ export default function RootLayout({
               <NavLinks />
             </nav>
           </header>
-
-          {/* <Button children= "presiona"/> */}
-            {/* <div>
-              <p>Ruta actual: {pathname}</p>
-              {children}
-            </div> */}
-            
-          {/* <button className={`${roboto.className} antialiased ${styles.buttonShape}`}>Presiona</button> */}
-          <ClientLayout>{children}</ClientLayout>
+          <ClientLayout>
+            <p className="text-4xl  text-blue-800 p-10 text-center mt-60 ">Creamos tu sociedad al instante</p>
+           
+            {children}
+          </ClientLayout>
         </div>
       </body>
     </html>
