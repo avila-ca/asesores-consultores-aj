@@ -2,7 +2,8 @@ import "./globals.css";
 import { merriweather, montserrat, roboto } from "./ui/fonts";
 import NavLinks from "./ui/navLinks";
 import ClientLayout from "./ui/clientLayout";
-import { Button } from "./ui/button";
+import { ButtonNav } from "./ui/buttonNav";
+import { ButtonGreen } from "./ui/buttonGreen";
 
 export default function RootLayout({
   children,
@@ -28,11 +29,7 @@ export default function RootLayout({
             </nav>
           </header>
           <ClientLayout>
-            <p className="text-4xl  text-blue-400 p-10 text-center mt-60 ">Creamos tu sociedad al instante</p>
-            <div className="flex gap-4 justify-center">
-              <Button className="bg-transparent text-green-700 rounded-lg border-green-700 border-2" children="Pedir cita"/>
-              <Button className="bg-green-700 text-white rounded-xxl" children="Crear tu sociedad" />
-            </div>
+           
             {children}
           </ClientLayout>
         </div>

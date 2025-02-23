@@ -1,7 +1,9 @@
 
 export default function page() {
-    return (
-      <div >page q mola</div>
-    )
-  }
-  
+
+  return (
+    <div>
+      <h1>Últimas Noticias</h1>
+    </div>
+  );
+}
