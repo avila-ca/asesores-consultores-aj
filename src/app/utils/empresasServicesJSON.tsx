@@ -1,35 +1,56 @@
 export const empresasServices = [
     {
         id: 11,
-        img:"/services/takeHands.jpg",
+        img: "",
+        alt: "",
         title: "Gestión Fiscal y Contable",
-        shortDescription: "Gestión laboral adaptada a tus necesidades empresariales.",
+        shortDescription: "Optimiza tus finanzas y cumple con tus obligaciones fiscales.",
         fullDescription:
-            "Sabemos que una gestión laboral efectiva es clave para el logro de los objetivos empresariales. Nuestro equipo de profesionales ofrece servicios completos adaptados a las necesidades laborales de las empresas: desde la creación de contratos y la administración de nóminas hasta la resolución de disputas.",
+            "Nos encargamos de la gestión integral de tu contabilidad y fiscalidad. Desde la elaboración de balances y cuentas anuales hasta la presentación de impuestos, te ofrecemos un servicio personalizado para garantizar el cumplimiento normativo y la optimización de tus recursos financieros.",
     },
     {
         id: 12,
-        img:"/services/calculating.jpg",
+        img: undefined,
+        alt: "",
         title: "Asesoría Laboral",
-        shortDescription: "Optimiza tus procesos fiscales y contables.",
+        shortDescription: "Soluciones expertas para la gestión de tu personal.",
         fullDescription:
-            "Reconocemos que una gestión eficiente en materia fiscal y contable es fundamental para el éxito de cualquier empresa. Contamos con un equipo de expertos que brinda soluciones completas y adaptadas a las necesidades financieras y fiscales de tu negocio.",
+            "Te asesoramos en todos los aspectos relacionados con la gestión laboral: contratación, nóminas, seguridad social, prevención de riesgos laborales y resolución de conflictos. Nuestro objetivo es garantizar el cumplimiento de la legislación laboral y ayudarte a crear un entorno de trabajo productivo y seguro.",
     },
     {
         id: 13,
-        img:"/services/signing.jpg",
+        img: undefined,
+        alt: "",
         title: "Asesoría Jurídica",
-        shortDescription: "Apoyo personalizado para crear y gestionar tu empresa.",
+        shortDescription: "Protege tus intereses con asesoramiento legal especializado.",
         fullDescription:
-            "Si estás buscando apoyo para crear tu sociedad o filial, nuestro equipo de abogados expertos en derecho mercantil está listo para guiarte y respaldarte. Ofrecemos asesoramiento personalizado que abarca aspectos fiscales, contables, mercantiles/jurídicos y laborales, además de un seguimiento continuo y un control integral de la gestión de tu actividad empresarial.",
+            "Ofrecemos asesoramiento jurídico en diversas áreas del derecho: mercantil, civil, administrativo y laboral. Te ayudamos a resolver conflictos, redactar contratos, proteger tu propiedad intelectual y defender tus derechos ante cualquier instancia legal.",
     },
     {
         id: 14,
-        img:"/services/intermediation.jpg",
+        img: undefined,
+        alt: "",
         title: "Gestión de Seguros",
-        shortDescription: "Resolución profesional y efectiva de conflictos laborales.",
+        shortDescription: "Encuentra la cobertura perfecta para tu tranquilidad.",
         fullDescription:
-            "En nuestro servicio de mediación laboral, ayudamos a resolver conflictos entre empleados y empleadores de manera rápida, profesional y efectiva. Actuamos como facilitadores imparciales para fomentar el diálogo y alcanzar acuerdos que satisfagan a ambas partes. Nuestro objetivo es reducir tensiones, minimizar riesgos legales y restaurar un ambiente de trabajo positivo y productivo.",
+            "Te ayudamos a encontrar los seguros que mejor se adaptan a tus necesidades y a las de tu empresa. Trabajamos con las principales compañías aseguradoras para ofrecerte una amplia gama de productos: seguros de responsabilidad civil, seguros de vida, seguros de salud, seguros de accidentes y seguros de patrimonio.",
     },
-    
-]
+    {
+        id: 15,
+        img: undefined,
+        alt: "",
+        title: "Gestión de Subvenciones",
+        shortDescription: "Accede a las ayudas y subvenciones que tu empresa merece.",
+        fullDescription:
+            "Te asesoramos en la búsqueda y gestión de subvenciones y ayudas públicas. Nos encargamos de la elaboración de la documentación necesaria, la presentación de solicitudes y el seguimiento de los expedientes. Te ayudamos a obtener los recursos financieros que necesitas para impulsar tus proyectos.",
+    },
+    {
+        id: 16,
+        img: undefined,
+        alt: "",
+        title: "Financiación de Proyectos",
+        shortDescription: "Haz realidad tus proyectos con la financiación adecuada.",
+        fullDescription:
+            "Te ayudamos a encontrar las mejores opciones de financiación para tus proyectos empresariales. Trabajamos con entidades financieras y fondos de inversión para ofrecerte soluciones personalizadas: préstamos, créditos, leasing, renting y capital riesgo. Te asesoramos en la elaboración de planes de negocio y la presentación de solicitudes de financiación.",
+    },
+];

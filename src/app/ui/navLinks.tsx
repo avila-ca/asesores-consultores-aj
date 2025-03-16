@@ -14,7 +14,7 @@ const links = [
     { name: 'Inicio', href: '/', icon: HomeIcon },
     { name: 'Servicios', href: '/servicios', icon:ScaleIcon},
     { name: 'Notícias', href: '/noticias', icon:NewspaperIcon},
-    { name: 'Empresas y Pimes', href: '/empresas', icon: InformationCircleIcon},
+    { name: 'Empresas y Pymes', href: '/empresas', icon: InformationCircleIcon},
     { name: 'Contacto', href: '/contacto', icon: PhoneIcon},
 ]
 
