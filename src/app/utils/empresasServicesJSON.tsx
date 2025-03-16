@@ -1,7 +1,7 @@
 export const empresasServices = [
     {
         id: 11,
-        img: "",
+        img: undefined,
         alt: "",
         title: "Gestión Fiscal y Contable",
         shortDescription: "Optimiza tus finanzas y cumple con tus obligaciones fiscales.",

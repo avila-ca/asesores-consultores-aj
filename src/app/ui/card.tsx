@@ -1,13 +1,15 @@
 'use client'
 
-import { useState } from "react"
+import { HTMLAttributes, HtmlHTMLAttributes, useState } from "react"
 import { CardData } from "../utils/ICardData";
+import clsx from "clsx";
 
 interface CardServicesProps {
     data: CardData[];
+    className?: string;
 }
 
-export default function CardServices({ data }: CardServicesProps) {
+export default function CardServices({ data, className }: CardServicesProps) {
     const [selectedService, setSelectedService] = useState<{
         id: number | null;
         img: string | undefined ;
@@ -22,10 +24,10 @@ export default function CardServices({ data }: CardServicesProps) {
             {!selectedService && (<>
                 {data.map((item) => {
                     return (
-                        <div key={item.id} onClick={() => setSelectedService(item)} className="max-w-sm rounded overflow-hidden shadow-lg">
+                        <div key={item.id} onClick={() => setSelectedService(item)} className={clsx('max-w-sm rounded overflow-hidden shadow-lg', className)}>
                             <img className="w-full" src={item.img} alt={item.alt} />
                             <div className="px-6 py-4">
-                                <div className="font-bold text-xl mb-2">{item.title}</div>
+                                <div className="font-bold text-xl mb-2 ">{item.title}</div>
                                 <p className="text-gray-700 text-base">
                                     {item.shortDescription}
                                 </p>
