@@ -20,7 +20,7 @@ export default function RootLayout({
         <div className="flex min-h-screen flex-col  bg-white-200">
 
           <div className="flex justify-between h-20 shrink-0 items-end bg-opacity-40 bg-blue-500 p-4 md:h-30">
-            <p className="text-white text-4xl"></p>
+            <p className="text-white text-4xl">VL Consulting</p>
             <a className="text-white text-1xl" href="tel:+34672160669">TEL: 672 160 669</a>
           </div>
           <header>
