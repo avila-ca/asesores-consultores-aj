@@ -13,13 +13,13 @@ export const services = [
         alt: "Manos usando una calculadora y revisando documentos, representando cálculos y finanzas.",
         title: "Asesoramiento fiscal y contable",
         shortDescription: "Optimiza tus procesos fiscales y contables.",
-        fullDescription: "Reconocemos que una gestión eficiente en materia fiscal y contable es fundamental para el éxito de cualquier empresa. Contamos con un equipo de expertos que brinda soluciones completas y adaptadas a las necesidades financieras y fiscales de tu negocio.",
+        fullDescription: "Reconocemos que una gestión eficiente en materia fiscal y contable, es fundamental para el éxito de cualquier empresa. Contamos con un equipo de expertos que brinda soluciones completas y adaptadas a las necesidades fiscales de tu negocio.",
     },
     {
         id: 3,
         img: "/services/signing.jpg",
         alt: "Persona firmando un documento importante, simbolizando acuerdos y contratos.",
-        title: "Constitución y gestión de Sociedades y Filiales en España y en el Extranjero",
+        title: "Constitución de Sociedades, Filiales en España y en el Extranjero",
         shortDescription: "Apoyo personalizado para crear y gestionar tu empresa.",
         fullDescription: "Si estás buscando apoyo para crear tu sociedad o filial, nuestro equipo de abogados expertos en derecho mercantil está listo para guiarte y respaldarte. Ofrecemos asesoramiento personalizado que abarca aspectos fiscales, contables, mercantiles/jurídicos y laborales, además de un seguimiento continuo y un control integral de la gestión de tu actividad empresarial.",
     },
@@ -69,6 +69,6 @@ export const services = [
         alt: "Documentos con gráficos y números, simbolizando asesoría y gestión empresarial.",
         title: "Gestión Comunidad de Propietarios",
         shortDescription: "Apoyo integral para gestionar tu negocio como autónomo.",
-        fullDescription: "Sabemos lo valioso que es tu tiempo como emprendedor. Por eso, te ofrecemos el apoyo de un equipo especializado que estará contigo en cada paso del camino, brindándote asesoramiento integral en los ámbitos fiscal, laboral y contable. Nuestro objetivo es ayudarte a gestionar tu negocio de manera segura y sin complicaciones.",
+        fullDescription: `<p>Sabemos lo valioso que es tu tiempo, por eso te ofrecemos el apoyo de un equipo especializado que estará contigo en cada momento, brindándote asesoramiento integral. Nuestro objetivo es ayudarte a gestionar tu negocio de manera segura y sin complicaciones.<ul className="list-disc ml-5"><li>dhjffj</li></ul></p>`,
     },
 ];

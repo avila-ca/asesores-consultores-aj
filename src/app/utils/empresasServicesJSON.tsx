@@ -15,7 +15,7 @@ export const empresasServices = [
         title: "Asesoría Laboral",
         shortDescription: "Soluciones expertas para la gestión de tu personal.",
         fullDescription:
-            "Te asesoramos en todos los aspectos relacionados con la gestión laboral: contratación, nóminas, seguridad social, prevención de riesgos laborales y resolución de conflictos. Nuestro objetivo es garantizar el cumplimiento de la legislación laboral y ayudarte a crear un entorno de trabajo productivo y seguro.",
+            "Te asesoramos en todos los aspectos relacionados con la gestión laboral. Desde la contratación y todo el recorrido de nóminas, seguridad social, prevención de riesgos laborales y resolución de conflictos. Nuestro objetivo es garantizar el cumplimiento de la legislación laboral y ayudarte a crear un entorno de trabajo productivo y seguro.",
     },
     {
         id: 13,
@@ -24,7 +24,7 @@ export const empresasServices = [
         title: "Asesoría Jurídica",
         shortDescription: "Protege tus intereses con asesoramiento legal especializado.",
         fullDescription:
-            "Ofrecemos asesoramiento jurídico en diversas áreas del derecho: mercantil, civil, administrativo y laboral. Te ayudamos a resolver conflictos, redactar contratos, proteger tu propiedad intelectual y defender tus derechos ante cualquier instancia legal.",
+            "Ofrecemos asesoramiento jurídico en diversas áreas del derecho: mercantil, civil, administrativo y laboral. Te ayudamos a resolver conflictos con nuestra area de mediación, redactar y revisar contratos, proteger tu propiedad intelectual y defender tus derechos ante cualquier instancia legal.",
     },
     {
         id: 14,
@@ -39,10 +39,10 @@ export const empresasServices = [
         id: 15,
         img: undefined,
         alt: "",
-        title: "Gestión de Subvenciones",
+        title: "Gestión de Bonificaciones y Subvenciones",
         shortDescription: "Accede a las ayudas y subvenciones que tu empresa merece.",
         fullDescription:
-            "Te asesoramos en la búsqueda y gestión de subvenciones y ayudas públicas. Nos encargamos de la elaboración de la documentación necesaria, la presentación de solicitudes y el seguimiento de los expedientes. Te ayudamos a obtener los recursos financieros que necesitas para impulsar tus proyectos.",
+            "Te asesoramos, buscamos y gestionamos las bonificaciones, subvenciones y ayudas públicas a las que te puedas acoger. Nos encargamos de la elaboración de la documentación necesaria, la presentación de solicitudes y el seguimiento de los expedientes hasta su cobro. Te ayudamos a obtener los recursos financieros que necesitas para impulsar tus proyectos.",
     },
     {
         id: 16,
