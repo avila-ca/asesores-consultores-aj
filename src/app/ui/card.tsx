@@ -4,6 +4,7 @@ import { useState } from "react"
 import { CardData } from "../utils/ICardData";
 import clsx from "clsx";
 import parse from "html-react-parser";
+import Link from "next/link";
 
 interface CardServicesProps {
     data: CardData[];
@@ -45,9 +46,19 @@ export default function CardServices({ data, className }: CardServicesProps) {
                         <img className="w-full" src={selectedService.img} alt={selectedService.alt} />
                         <h2 className="mb-2 text-2xl font-bold tracking-tight ">{selectedService.title}</h2>
                         <div className="font-normal text-gray-700 dark:text-gray-900" >{parse(selectedService.fullDescription)}</div>
-                        <button className="text-white m-4 bg-gray-800  focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 " onClick={() => setSelectedService(null)}>Cerrar</button>
-                        <button className="text-white m-4 bg-green-800  focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 " onClick={() => setSelectedService(null)}>Concertar cita</button>
-                        <button className="text-white m-4 bg-blue-800  focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-green-600 " onClick={() => setSelectedService(null)}>Enviar petición</button>
+                        <div className="grid grid-cols-2">
+
+                            <button className="text-white m-4 bg-green-800 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5"
+                                onClick={() => {
+                                    const phone = "672160669";
+                                    const message = encodeURIComponent(`Hola, me gustaría concertar una cita para el servicio: ${selectedService?.title}`);
+                                    window.open(`https://wa.me/${phone}?text=${message}`, "_blank");
+                                }}>Enviar mensaje</button>
+                            <Link className="text-white m-4 bg-green-800 focus:ring-4 text-center focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5"
+                                href='/contacto'>Concertar cita</Link>
+                            <button className="text-white m-4 bg-blue-800  focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 " onClick={() => setSelectedService(null)}>Que me llamen</button>
+                            <button className="text-white m-4 bg-gray-800  focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 " onClick={() => setSelectedService(null)}>Cerrar</button>
+                        </div>
                     </div>
                 </div>
             )
