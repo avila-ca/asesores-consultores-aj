@@ -46,6 +46,8 @@ export default function CardServices({ data, className }: CardServicesProps) {
                         <h2 className="mb-2 text-2xl font-bold tracking-tight ">{selectedService.title}</h2>
                         <div className="font-normal text-gray-700 dark:text-gray-900" >{parse(selectedService.fullDescription)}</div>
                         <button className="text-white m-4 bg-gray-800  focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 " onClick={() => setSelectedService(null)}>Cerrar</button>
+                        <button className="text-white m-4 bg-green-800  focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 " onClick={() => setSelectedService(null)}>Concertar cita</button>
+                        <button className="text-white m-4 bg-blue-800  focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-green-600 " onClick={() => setSelectedService(null)}>Enviar petición</button>
                     </div>
                 </div>
             )
