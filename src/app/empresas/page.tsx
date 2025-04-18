@@ -1,4 +1,4 @@
-import CardServices from "../ui/card";
+import CardServices from "../ui/cardServices";
 import { empresasServices } from "../utils/empresasServicesJSON";
 
 

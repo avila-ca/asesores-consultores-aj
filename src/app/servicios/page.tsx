@@ -1,4 +1,4 @@
-import CardServices from "../ui/card";
+import CardServices from "../ui/cardServices";
 import { services } from "../utils/servicesJSON";
 
 export default function page() {
