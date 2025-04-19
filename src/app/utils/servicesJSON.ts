@@ -17,7 +17,7 @@ export const services = [
     },
     {
         id: 3,
-        img: "/services/signing.jpg",
+        img: "/services/firma2pax.jpg",
         alt: "Persona firmando un documento importante, simbolizando acuerdos y contratos.",
         title: "Constitución de Sociedades, Filiales en España y en el Extranjero",
         shortDescription: "Apoyo personalizado para crear y gestionar tu empresa.",
@@ -33,8 +33,8 @@ export const services = [
     },
     {
         id: 5,
-        img: "/services/takeHands.jpg",
-        alt: "Dos manos dándose un apretón, simbolizando un acuerdo o colaboración.",
+        img: "/services/reunionExtranjeria.jpg",
+        alt: "Reunión 3 personas para acuerdo o colaboración.",
         title: "Extranjería y nacionalidad",
         shortDescription: "Asesoramiento en trámites de extranjería y nacionalidad.",
         fullDescription: "Nuestro equipo especializado te ofrece apoyo en la obtención de permisos de residencia y nacionalidad. Con experiencia en trámites administrativos y normativas legales, garantizamos un proceso eficiente y adaptado a tus necesidades. Confía en nosotros para facilitar tu integración en España de manera segura y efectiva.",

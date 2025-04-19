@@ -12,10 +12,10 @@ export const noticiasBlog = [
       </ul>
       <p>Estas medidas buscan fomentar la movilidad sostenible mediante incentivos fiscales a particulares y empresas.</p>
     `,
-    image: "/blog/cocheEnchufable.jpg", // Puedes reemplazar esto por cualquier imagen relevante de tu carpeta pública
+    image: "/blog/cocheEnchufable.jpg", 
     author: "Redacción Fiscal",
     date: new Date("2025-04-01"),
     source: "BOE - Real Decreto-ley 3/2025"
   },
 
-];
+]
