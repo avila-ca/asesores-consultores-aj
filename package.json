@@ -18,6 +18,7 @@
     "next": "15.1.6",
     "pnpm": "^10.6.5",
     "react": "^19.0.0",
+    "react-datepicker": "^8.3.0",
     "react-dom": "^19.0.0",
     "rss-parser": "^3.13.0"
   },
