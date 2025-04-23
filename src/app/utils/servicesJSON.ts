@@ -65,7 +65,7 @@ export const services = [
     },
     {
         id: 9,
-        img: "/services/graphicsPapers.jpg",
+        img: "/services/reunionComunidad.jpg",
         alt: "Documentos con gráficos y números, simbolizando asesoría y gestión empresarial.",
         title: "Gestión Comunidad de Propietarios",
         shortDescription: "Apoyo integral para gestionar tu negocio como autónomo.",
