@@ -4,7 +4,7 @@ import { useState } from 'react'
 
 export default function CallMeCard() {
     const [sent, setSent] = useState(false)
-    const [handleCallButton, setHandleCallButton] = useState(false)
+    //const [handleCallButton, setHandleCallButton] = useState(false)
     const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault()
 

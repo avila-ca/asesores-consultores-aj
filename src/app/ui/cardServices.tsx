@@ -4,7 +4,6 @@ import { useState } from "react"
 import { CardData } from "../utils/ICardData";
 import clsx from "clsx";
 import parse from "html-react-parser";
-import Link from "next/link";
 import CallMeCard from "./callMeCard";
 import emailjs from "@emailjs/browser";
 import DatePicker from "react-datepicker";

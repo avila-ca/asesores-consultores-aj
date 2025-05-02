@@ -1,9 +1,7 @@
 import "./globals.css";
-import { merriweather, montserrat, roboto } from "./ui/fonts";
+import { montserrat } from "./ui/fonts";
 import NavLinks from "./ui/navLinks";
 import ClientLayout from "./ui/clientLayout";
-import { ButtonNav } from "./ui/buttonNav";
-import { ButtonGreen } from "./ui/buttonGreen";
 
 export default function RootLayout({
   children,
