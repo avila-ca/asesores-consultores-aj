@@ -12,6 +12,7 @@ import "react-datepicker/dist/react-datepicker.css";
 interface CardServicesProps {
     data: CardData[];
     className?: string;
+    variant?: string;
 }
 
 export default function CardServices({ data, className }: CardServicesProps) {
