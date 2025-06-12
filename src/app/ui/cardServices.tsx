@@ -8,6 +8,7 @@ import CallMeCard from "./callMeCard";
 import emailjs from "@emailjs/browser";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
+import Image from "next/image";
 
 interface CardServicesProps {
     data: CardData[];
@@ -61,7 +62,7 @@ export default function CardServices({ data, className }: CardServicesProps) {
                 <>
                     {data.map((item) => (
                         <div key={item.id} onClick={() => setSelectedService(item)} className={clsx('max-w-sm rounded overflow-hidden shadow-lg cursor-pointer', className)}>
-                            <img className="w-full" src={item.img} alt={item.alt} />
+                            <Image className="w-full" src="item.img" alt="item.alt" />
                             <div className="px-6 py-4">
                                 <div className="font-bold text-xl mb-2">{item.title}</div>
                                 <p className="text-gray-700 text-base">{item.shortDescription}</p>
@@ -74,7 +75,7 @@ export default function CardServices({ data, className }: CardServicesProps) {
             {selectedService && (
                 <div className="fixed inset-0 flex items-center justify-center bg-gray-800 bg-opacity-50 z-50">
                     <div className="mx-auto items-center max-w-sm mt-5 p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100">
-                        <img className="w-full" src={selectedService.img} alt={selectedService.alt} />
+                        <Image className="w-full" src="selectedService.img" alt="selectedService.alt" />
                         <h2 className="mb-2 text-2xl font-bold tracking-tight">{selectedService.title}</h2>
                         <div className="font-normal text-gray-700 dark:text-gray-900">{parse(selectedService.fullDescription)}</div>
 

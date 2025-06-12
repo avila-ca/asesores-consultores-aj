@@ -1,5 +1,4 @@
 'use client'
-import emailjs from '@emailjs/browser'
 import { useRef, useState, useEffect } from 'react';
 import { sendEmail } from '../utils/sendEmail';
 
