@@ -1,24 +1,13 @@
 'use client'
 import emailjs from '@emailjs/browser'
 import { useRef, useState, useEffect } from 'react';
+import { sendEmail } from '../utils/sendEmail';
+
 
 export default function Page() {
   const messageRef = useRef<HTMLTextAreaElement | null>(null);
   const [messageFocused, setMessageFocused] = useState(false);
   const [messageHasValue, setMessageHasValue] = useState(false);
-
-  const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    emailjs.sendForm('service_61tweel', 'template_vcpdd0h', e.currentTarget, {
-      publicKey: 'yQDMSWDoWi3B54e6u'
-    })
-      .then(() => {
-        console.log('Email enviado correctamente!');
-      })
-      .catch((error) => {
-        console.log('Error...', error.text);
-      });
-  }
 
   useEffect(() => {
     if (messageRef.current && messageRef.current.value) {
