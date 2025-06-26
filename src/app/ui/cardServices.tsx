@@ -61,7 +61,7 @@ export default function CardServices({ data, className }: CardServicesProps) {
                 <>
                     {data.map((item) => (
                         <div key={item.id} onClick={() => setSelectedService(item)} className={clsx('max-w-sm rounded overflow-hidden shadow-lg cursor-pointer', className)}>
-                            <img className="w-full" src={item.img} alt={item.alt} />
+                            <img className="w-full " src={item.img} alt={item.alt} />
                             <div className="px-6 py-4">
                                 <div className="font-bold text-xl mb-2">{item.title}</div>
                                 <p className="text-gray-700 text-base">{item.shortDescription}</p>
