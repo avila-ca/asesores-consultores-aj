@@ -75,7 +75,7 @@ export default function CardServices({ data, className }: CardServicesProps) {
             {selectedService && (
                 <div className="fixed inset-0 flex items-center justify-center bg-gray-800 bg-opacity-50 z-50">
                     <div className="mx-auto items-center max-w-sm mt-5 p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100">
-                        <Image className="w-full" src="selectedService.img" alt="selectedService.alt" />
+                        <img className="w-full" src={selectedService.img} alt={selectedService.alt} />
                         <h2 className="mb-2 text-2xl font-bold tracking-tight">{selectedService.title}</h2>
                         <div className="font-normal text-gray-700 dark:text-gray-900">{parse(selectedService.fullDescription)}</div>
 
