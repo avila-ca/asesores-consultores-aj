@@ -6,7 +6,8 @@ import ClientLayout from "./ui/clientLayout";
 export const companyInfo = {
   name: "VL Consulting",
   phone: "+34672160669",
-  email: ""
+  email: "",
+  address: "",
 };
 
 export default function RootLayout({
