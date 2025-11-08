@@ -3,6 +3,12 @@ import { montserrat } from "./ui/fonts";
 import NavLinks from "./ui/navLinks";
 import ClientLayout from "./ui/clientLayout";
 
+export const companyInfo = {
+  name: "VL Consulting",
+  phone: "+34672160669",
+  email: ""
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
