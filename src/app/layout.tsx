@@ -1,3 +1,5 @@
+'use client';
+
 import "./globals.css";
 import { montserrat } from "./ui/fonts";
 import NavLinks from "./ui/navLinks";
@@ -12,7 +14,7 @@ export const companyInfo = {
 };
 
 export const metadata = {
-  title:   `${companyInfo.name}`,
+  title: `${companyInfo.name}`,
   description: `Descubre los servicios principales que ${companyInfo.name} ofrece para asesoría y consultoría profesional.`,
 };
 
@@ -26,10 +28,10 @@ export default function RootLayout({
     <html lang="es">
       <Head>
         <title>{companyInfo.name}</title>
-          <meta name="description" content={`${companyInfo.name} - Servicios de consultoría y asesoramiento empresarial.`} />
-          <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <link rel="icon" href="/favicon.ico" />
-        </Head>
+        <meta name="description" content={`${companyInfo.name} - Servicios de consultoría y asesoramiento empresarial.`} />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <body
         className={`${montserrat.className} antialiased`}
       >
