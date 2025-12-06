@@ -13,11 +13,6 @@ export const companyInfo = {
   address: "",
 };
 
-export const metadata = {
-  title: `${companyInfo.name}`,
-  description: `Descubre los servicios principales que ${companyInfo.name} ofrece para asesoría y consultoría profesional.`,
-};
-
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -48,7 +43,8 @@ export default function RootLayout({
             </nav>
           </header>
           <ClientLayout>
-            <h1 className="text-4xl font-bold mb-6">{companyInfo.name}</h1>
+
+            <h1 className="text-4xl font-bold mb-6 text-blue-600">{companyInfo.name}</h1>
             {children}
           </ClientLayout>
         </div>
