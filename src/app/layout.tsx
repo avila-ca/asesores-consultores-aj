@@ -5,6 +5,7 @@ import { montserrat } from "./ui/fonts";
 import NavLinks from "./ui/navLinks";
 import ClientLayout from "./ui/clientLayout";
 import Head from "next/head";
+import Image from "next/image";
 
 export const companyInfo = {
   name: "TAI Consultoria",
@@ -22,6 +23,7 @@ export default function RootLayout({
   return (
     <html lang="es">
       <Head>
+
         <title>{companyInfo.name}</title>
         <meta name="description" content={`${companyInfo.name} - Servicios de consultoría y asesoramiento empresarial.`} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -30,12 +32,40 @@ export default function RootLayout({
       <body
         className={`${montserrat.className} antialiased`}
       >
-
-        <div className="flex min-h-screen flex-col  bg-white-200">
-
-          <div className="flex justify-between h-20 shrink-0 items-end bg-opacity-40 bg-blue-500 p-4 md:h-30">
-            <p className="text-white text-4xl">{companyInfo.name}</p>
-            <a className="text-white text-1xl" href={`tel: +34${companyInfo.phone}`}>TEL: {companyInfo.phone}</a>
+        <div className="flex min-h-screen flex-col bg-white-200">
+          <div className="flex h-28 md:h-36 items-center bg-opacity-40 bg-blue-500 p-4">
+            <div className="flex items-center relative">
+              <Image
+                src="/assets/logo.png"
+                width={260}
+                height={260}
+                alt="logo"
+                className="
+        h-24 w-24
+        md:h-26 md:w-26
+        object-contain
+      "
+                priority
+              />
+              <h1
+                className="
+        text-white 
+        font-bold
+        text-3xl 
+        md:text-5xl
+        leading-[0.9]
+        -ml-1 md:-ml-1 mt-12
+      "
+              >
+                {companyInfo.name.slice(3)}
+              </h1>
+            </div>
+            <a
+              className="text-white text-lg md:text-xl ml-auto"
+              href={`tel:${companyInfo.phone}`}
+            >
+              TEL: {companyInfo.phone}
+            </a>
           </div>
           <header>
             <nav className='flex gap-2'>
@@ -43,8 +73,6 @@ export default function RootLayout({
             </nav>
           </header>
           <ClientLayout>
-
-            <h1 className="text-4xl font-bold mb-6 text-blue-600">{companyInfo.name}</h1>
             {children}
           </ClientLayout>
         </div>
