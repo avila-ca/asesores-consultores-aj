@@ -8,6 +8,7 @@ import {
     ScaleIcon,
     NewspaperIcon,
     InformationCircleIcon,
+    UserGroupIcon,
     PhoneIcon,
   } from '@heroicons/react/24/outline';
 const links = [
@@ -15,6 +16,7 @@ const links = [
     { name: 'Servicios', href: '/servicios', icon:ScaleIcon},
     { name: 'Notícias', href: '/noticias', icon:NewspaperIcon},
     { name: 'Empresas y Pymes', href: '/empresas', icon: InformationCircleIcon},
+    { name: 'Sobre Nosotros', href: '/sobreNosotros', icon: UserGroupIcon},
     { name: 'Contacto', href: '/contacto', icon: PhoneIcon},
 ]
 
