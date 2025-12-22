@@ -28,7 +28,7 @@ export default function RootLayout({
                 className="h-32 w-32 md:h-40 md:w-40 object-contain mix-blend-multiply"
                 priority
               />
-              <h1 className="text-white font-bold text-3xl md:text-5xl leading-[0.9] -ml-3 mt-4">
+              <h1 className="text-white font-bold text-3xl md:text-5xl leading-[0.9] -ml-3 mt-0">
                 {companyInfo?.name ? companyInfo.name.slice(3) : "Cargando..."}
               </h1>
             </div>
