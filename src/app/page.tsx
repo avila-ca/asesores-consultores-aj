@@ -1,4 +1,4 @@
-import { companyInfo } from "./layout";
+import { companyInfo } from "./companyInfo";
 
 
 export const metadata = {

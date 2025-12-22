@@ -1,4 +1,4 @@
-import { companyInfo } from "../layout";
+import { companyInfo } from "../../app/companyInfo";
 
 export default function Page() {
   return (
