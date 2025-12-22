@@ -17,7 +17,7 @@ export default function RootLayout({
     <html lang="es">
       <body className={`${montserrat.className} antialiased`}>
         <div className="flex min-h-screen flex-col">
-          
+
           <div className="flex h-28 md:h-36 items-center bg-opacity-40 bg-blue-500 p-4">
             <div className="flex items-center relative">
               <Image
@@ -29,7 +29,7 @@ export default function RootLayout({
                 priority
               />
               <h1 className="text-white font-bold text-3xl md:text-5xl leading-[0.9] -ml-3 mt-4">
-                {companyInfo.name.slice(3)}
+                {companyInfo?.name ? companyInfo.name.slice(3) : "Cargando..."}
               </h1>
             </div>
             <a

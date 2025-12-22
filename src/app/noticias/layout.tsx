@@ -1,4 +1,4 @@
-import { companyInfo } from "../layout";
+import { companyInfo } from "../companyInfo";
 
 export default function NewsLayout({children}:{children:React.ReactNode}) {
     return (

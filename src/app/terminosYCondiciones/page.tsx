@@ -1,7 +1,7 @@
 'use client'
-import { companyInfo } from "../layout"
+import { companyInfo } from "../companyInfo"
 
-export default function Page() {
+export default function Page() {layout
   return (
     <main className="p-10 max-w-4xl mx-auto">
       <h1 className="text-4xl font-bold mb-6">Términos y Condiciones</h1>

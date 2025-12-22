@@ -1,5 +1,5 @@
 import { JSX } from "react";
-import { companyInfo } from "../layout";
+import { companyInfo } from "../companyInfo";
 
 export default function terminosYCondiciones({children}:{children:React.ReactNode}){
     return (
