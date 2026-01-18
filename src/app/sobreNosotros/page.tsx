@@ -47,7 +47,7 @@ export default function Page() {
         <li>Tu consentimiento, cuando nos proporcionas tus datos voluntariamente.</li>
         <li>La ejecución de un contrato o la aplicación de medidas precontractuales.</li>
         <li>El cumplimiento de obligaciones legales.</li>
-        <li>El interés legítimo de {companyInfo.name} en mantener la seguridad y el buen funcionamiento de sus servicios.</li>
+        <li>El interés legítimo de {companyInfo.name} es mantener la seguridad y el buen funcionamiento de sus servicios.</li>
       </ul>
 
       <h2 className="text-2xl font-semibold mt-6 mb-4">5. Conservación de los datos</h2>

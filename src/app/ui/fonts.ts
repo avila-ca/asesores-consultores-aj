@@ -1,4 +1,4 @@
-import { Montserrat } from 'next/font/google'
+import { Cinzel, Montserrat } from 'next/font/google'
 
 // export const merriweather = Merriweather ({
 //     weight:'900',
@@ -13,3 +13,9 @@ export const montserrat = Montserrat ({
     subsets:['latin']
 })
 
+
+export const cinzel = Cinzel({
+    subsets: ["latin"],
+    weight: ["400", "600", "700"],
+  });
+  

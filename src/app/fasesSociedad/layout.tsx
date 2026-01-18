@@ -2,7 +2,7 @@ import { companyInfo } from "../companyInfo";
 
 export default function AboutLayout({ children }: { children: React.ReactNode }) {
   return (
-    <main className="p-10">
+    <main className="p-16">
       <h1 className="text-4xl font-bold mb-6">{companyInfo.name}</h1>
       {children}
     </main>

@@ -34,38 +34,33 @@ export default function Page() {
   const router = useRouter();
   return (
     <Modal onClose={() => router.push("/")}>
-      <div className="grid grid-cols-3 gap-6">
-
-        <div className="max-w-xl mx-auto mt-8 p-6 bg-white rounded shadow">
-
-          <h2 className="text-2xl font-bold mb-4">Fases para Transformar tu Proyecto en Realidad</h2>
+      <div className="w-full h-full max-h-[100dvh] overflow-y-auto grid grid-cols-1 md:grid-cols-3 gap-6 p-2 md:p-6">
+        <div className="max-w-xl w-full mx-auto mt-4 md:mt-8 p-4 md:p-6 bg-white rounded shadow">
+          <h2 className="text-xl md:text-2xl font-bold mb-4">Fases para Transformar tu Proyecto en Realidad</h2>
           <ol className="list-decimal ml-6 space-y-2">
             {fasesConstitucion.map((fase, idx) => (
               <li key={idx} className="text-gray-700">{fase}</li>
             ))}
           </ol>
-          <p className="text-gray-800 p-6 text-justify">"Nuestro objetivo principal es ofrecer soluciones realmente personalizadas. Detectando riesgos y oportunidades para la seguridad y el crecimiento constante de tu sociedad."</p>
+          <p className="text-gray-800 p-4 md:p-6 text-justify">
+            "Nuestro objetivo principal es ofrecer soluciones realmente personalizadas. Detectando riesgos y oportunidades para la seguridad y el crecimiento constante de tu sociedad."
+          </p>
         </div>
-
-        <div className="max-w-xl mx-auto mt-8 p-6 bg-white rounded shadow">
-
-          <h2 className="text-2xl font-bold mb-4 ">Pasos para la Constitución de Sociedades</h2>
+        <div className="max-w-xl w-full mx-auto mt-4 md:mt-8 p-4 md:p-6 bg-white rounded shadow">
+          <h2 className="text-xl md:text-2xl font-bold mb-4">Pasos para la Constitución de Sociedades</h2>
           <ol className="list-decimal ml-6 space-y-2">
             {pasosConstitucion.map((fase, idx) => (
               <li key={idx} className="text-gray-700">{fase}</li>
             ))}
           </ol>
-
         </div>
-        <div className="max-w-xl mx-auto mt-8 p-6 bg-white rounded shadow">
-
-          <h2 className="text-2xl font-bold mb-4">Proceso de Alta de Autónomos</h2>
+        <div className="max-w-xl w-full mx-auto mt-4 md:mt-8 p-4 md:p-6 bg-white rounded shadow">
+          <h2 className="text-xl md:text-2xl font-bold mb-4">Proceso de Alta de Autónomos</h2>
           <ol className="list-decimal ml-6 space-y-2">
             {pasosAutonomos.map((fase, idx) => (
               <li key={idx} className="text-gray-700">{fase}</li>
             ))}
           </ol>
-
         </div>
       </div>
     </Modal>

@@ -1,6 +1,6 @@
 
 export const companyInfo = {
-    name: "AJL Consultoria",
+    name: "AJL Asesoría - Consultoria",
     phone: "+34672160669",
     email: "",
     address: "",
