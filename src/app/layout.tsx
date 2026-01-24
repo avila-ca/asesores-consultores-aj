@@ -53,6 +53,12 @@ export default function RootLayout({
             {children}
           </ClientLayout>
         </div>
+        <footer className="text-sm text-center p-4">
+          <a href="/terminosYCondiciones">Aviso Legal</a> ·
+          <a href="/politicaDePrivacidad">Política de Privacidad</a> ·
+          <a href="/cookies">Política de Cookies</a>
+        </footer>
+
       </body>
     </html>
   );
